@@ -1,0 +1,11 @@
+{
+  "type": "module",
+
+  
+
+  "dependencies": {
+    "gender-api.com-client": "^1.0.14"
+    
+  }
+ 
+}

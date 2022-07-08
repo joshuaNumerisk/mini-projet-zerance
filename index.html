@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script   src="script.js"></script>
+  <script  src="https://kit.fontawesome.com/36cd7d79fd.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+   
+    <header>
+        <img class="logo" src="logo.png">
+        < ! -- menu-- >
+
+
+        <nav class="menu">
+        <h1 id="titre-menu">Studio <br> zerance.</h1>
+        <ul class="pages">
+            <li class="page"><a class="lienSection" href="#clients" >Nos clients </a></li>
+            <li  class="page"><a class="lienSection" href="#slider"  >Notre offre</a></li>
+            <li  class="page"><a class="lienSection" href="#">Le studio</a></li>
+            <li  class="page"><a class="lienSection" onclick="openForm()" >Contact</a></li>
+        </ul>
+        </nav>
+     
+
+    </header>
+
+    <div class="container-form">
+        < ! -- formulaire popup-- >
+
+    <form  id="form-popup">
+  
+        <label for="prenom">
+            <p>Prénom</p>
+          </label>
+          <input class="champ" type="text" placeholder="Votre Prenom" name="prenom" required id="nom" />
+        <label for="email">
+          <p>E-mail</p>
+        </label>
+        <input class="champ" type="text" placeholder="Votre Email" name="email" required />
+        <label for="message">
+            <p>message</p>
+          </label>
+          <input class="champ" type="text" placeholder="Votre message" name="message" required />
+        <label for="email">
+      
+        <button type="submit" class="btn" onclick="getGenre()">valider</button>
+        <button type="submit" class="btn cancel" onclick="closeForm()">Fermer</button>
+      </form>
+     
+    </div>
+    <div class="close-popup" onclick="closeForm()">
+    <div class="container">
+        
+        <p>SINCE 2016</p>
+        <h1 id="align-center">&lt We create from scratch<br> amazing <strong>shopify</strong> &gt</h1>
+    </div>
+    < ! --les différents clients-- >
+
+    <div id="clients">
+        <h2>Nos clients sont géniaux</h2>
+        <div class="container">
+            <div class="row">
+            <div class="client">
+                <a href="https://yokoshop.com/">
+                    <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_03_180x.jpg?v=1567687109">
+                </a>
+            </div>
+            <div class="client">
+               
+                    <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_05_180x.jpg?v=1567687109">
+                
+            </div>
+            <div class="client">
+                <a href="https://avnier.com/">
+                    <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_07_180x.jpg?v=1567687109">
+                </a>
+            </div>
+            <div class="client">
+
+            <a  href="https://seasonly.fr/" >
+                
+                <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_09_180x.jpg?v=1567687109" >
+              
+              </a>
+              </div>
+              <div class="client">
+              
+                
+                <a  href="https://www.cabaia.fr/" >
+                
+                  <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/cabaia_180x.png?v=1643241407" alt="">
+                
+                </a>
+                
+              
+            </div>
+        </div>
+        <div class="row">
+            <div class="client">
+              
+                
+                <a href="http://balzac-paris.myshopify.com/" >
+                
+                  <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/balzac_180x.png?v=1606830408" alt="">
+                
+                </a>
+            
+            </div>
+            <div class="client">
+                <a  href="https://www.baseformusic.com" >
+                  <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/baseformusic-min_2_180x.jpg?v=1648824295" alt="">
+                
+                </a>
+            </div>
+            <div class="client">
+                <a  href="https://syncprotein.com/" >
+                  <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/sync_180x.png?v=1606830449" alt="">
+                </a>
+            </div>
+            <div class="client">
+                <a href="https://www.bonsoirs.com/" >
+                  <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_21_180x.jpg?v=1567687109" alt="">
+                </a>
+            </div>
+            <div class="client">
+                <a  href="https://fempo.co/" >
+                
+                  <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_20_180x.jpg?v=1567687110" alt="">
+                </a> 
+              
+            </div>
+        </div>
+        <div class="row">
+            <div class="client">
+                <a  href="https://dermalogica.fr/">
+                  <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/dermalogica_180x.png?v=1643241439" alt="">
+                </a>
+            </div>
+            <div class="client">
+                <a  href="https://lafourche.fr/" >
+                
+                  <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_29_180x.jpg?v=1567687109" alt="">
+                
+                </a>
+            </div>
+ 
+                <div class="client">
+                
+                  <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/seb_180x.png?v=1606830474" alt="">
+                
+                </div>
+                    <div class="client">
+                    
+                      <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_31_180x.jpg?v=1567687109" alt="">
+                    
+                    </div>
+                    <div class="client">
+
+                        <a  href="https://inesdelafressange.fr/">
+                          <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/jpg_3d55b8fb-f35a-481a-ab9e-27cb5fa14caa_180x.png?v=1606830498" alt="">
+                        </a>
+                    </div>
+                </div>
+                    <div class="row">
+                    <div class="client">
+                        <a  href="https://www.respire.co/">
+                          <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/respire_180x.jpg?v=1574851970" alt="">
+                        </a> 
+                    </div>
+                    <div class="client">
+                        <a  href="https://www.rondorff.com/" >
+                          <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/rondorff_180x.jpg?v=1574852009" alt="">
+                        </a>
+                    </div>
+                    <div class="client">
+                        <a  href="https://saeve.com/" >
+                        
+                          <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/jpg_73abfad8-347d-45d9-8849-03640439d391_180x.png?v=1586263891" alt="">
+                        </a>
+                        
+                      
+                    </div>
+                    <div class="client">
+              
+                
+                        <a  href="https://franklinpetfood.com/" >
+                        
+                          <img  src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/png_35ce35c2-8dac-45f3-b0a4-68c1445eba10_180x.png?v=1586420784" alt="">
+                        
+                        </a>
+                        
+                      
+                    </div>
+              
+                
+                        <div class="client">
+                        
+                          <img src="https://cdn.shopify.com/s/files/1/0074/2726/0483/files/Home-ZERANCE-04_22_180x.jpg?v=1567687109" alt="">
+                        
+                        </div>      
+        </div>
+        </div>
+        
+
+    </div>
+    < ! -- fermeture de la section des clients-- >
+
+    < ! -- slider-- >
+
+    <div id="slider" >
+        <div>
+        <img class="img-slider" src="Artboard_1.jpg"  id="slide">
+    
+    
+    </img>
+    <div class="text-next">
+        <div class="text">
+            <p>FROM SCRATCH/</p><br>
+            <h1 class="title-slide">seasonly</h1>
+            <p>Développement site from scratch et d'un quiz personalisé avec développement site from scratch et d'un quiz personnalisé avec abonnement</p>
+
+        <strong>&lt Voir plus &gt</strong>
+
+        </div>
+        < ! -- lorsqu'on clique sur l'icon on change de slide -- >
+
+        <div id="suivant" onclick="ChangeSlide(1)" ><i class="fa-solid fa-angle-right fa-3x"></i> </div>
+
+
+    </div>
+      
+    </div>
+
+    </div>
+    < ! -- défilement d'un texte-- >
+    <div class="texteDefile"><marquee scrollamount="15"><p class="text-defile">Nous étions 4 en 2018, nous sommes 14 en 2020 ! / Studio Zerance, Experts Shopify de père en fils depuis 2016 / Nous sommes également des e-commerçants ! Découvrez nos croquettes sur-mesure sur <a href="https://www.graou.co">graou.co</a> / En langue bretonne, Studio Zerance se dit Studio Zerance / C'est plus agréable en vrai, venez donc discuter de votre projet autour d'un thé dans nos supers bureaux du Sentier / Pour votre sécurité, veuillez conserver une distance de sécurité d'1,5 mètre avec nos développeurs, merci / </p></marquee></div>
+    
+  
+</div>
+</div>
+
+
+</body>
+</html>
